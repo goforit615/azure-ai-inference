@@ -23,7 +23,6 @@ public final class StreamingChatSample {
      * @param args Unused. Arguments to the program.
      */
     public static void main(String[] args) {
-        String endpoint = "https://models.github.ai/inference";
         String model = "gpt-4.1";
 
         ChatCompletionsClient client = new ChatCompletionsClientBuilder()
