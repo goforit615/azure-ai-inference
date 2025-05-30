@@ -24,7 +24,7 @@ public final class StreamingChatSample {
      */
     public static void main(String[] args) {
         String model = "gpt-4.1";
-
+        String endpoint = "https://models.github.ai/inference";
         ChatCompletionsClient client = new ChatCompletionsClientBuilder()
                 .credential(new AzureKeyCredential("<API_KEY>"))
                 .endpoint(endpoint)
